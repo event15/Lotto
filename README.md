@@ -1,1 +1,2 @@
 # Lotto
+Small DDD Lotto
