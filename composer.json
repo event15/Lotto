@@ -1,0 +1,25 @@
+{
+  "name": "event15/Lotto",
+  "description": "Lotto manager",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Marek",
+      "email": "marwo12@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LottoManager\\": "src/LottoManager"
+    }
+  },
+
+  "config": {
+    "bin-dir": "bin"
+  },
+  "require": {
+    "slim/slim": "^3.0",
+    "ramsey/uuid": "3.7.0"
+  }
+}
